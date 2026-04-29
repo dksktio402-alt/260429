@@ -1,0 +1,58 @@
+ body {background-color: #AEE3FF; overflow: hidden;}
+
+         /* animation 속성들 한 줄로 나열 
+         이름 / 지속시간 / 효과 / 반복 정도 / 진행방향 */
+        .chii {width: 300px; height: auto;
+        animation: floatmove 7s ease-in-out infinite;
+        position:absolute; right: 0; top: 50%;
+        z-index: 9999;}
+
+
+        .hachi {width: 310px; height: auto;
+        animation: floatmove 7s ease-in-out infinite;
+        position: absolute; right: 0; top: 60%;
+        animation-delay: 0.7s;
+        z-index: 9999;}
+
+        .usagi {width: 220px; height: auto;
+        animation: fly 7s ease-in-out infinite;
+        position: absolute; right: 40px; top: 100%}
+
+        .cloud {width: 200px; height: auto; 
+        animation: cloud 5s linear infinite;
+        position: absolute; left: 90px; top: 40%;}
+
+         .cloud2 {width: 300px; height: auto; 
+        animation: cloud 5s linear infinite;
+        position: absolute; left: 480px; top: 50%;}
+
+         .cloud3 {width: 200px; height: auto; 
+        animation: cloud 5s linear infinite;
+        position: absolute; left: 760px; top: 20%;}
+
+         .cloud4 {width: 250px; height: auto; 
+        animation: cloud 5s linear infinite;
+        position: absolute; left: 1350px; top: 50%;}
+
+
+        
+        /* animation 부분 */
+        @keyframes floatmove {
+            0% {transform: translateX(100px) translateY(-50px)}
+            30% {transform: translateX(-400px) translateY(-300px);}
+            50% {transform: translateX(-700px) translateY(-100px);}
+            70% {transform: translateX(-1000px) translateY(-150px)}
+            100% {transform: translateX(-2000px) translateY(20px)} 
+        }
+
+        @keyframes fly {
+            0% {transform: translateX(100px) translateY(100px) rotate(0deg);}
+            50% {transform: translateX(-800px) translateY(-600px) rotate(360deg);}
+            100% {transform: translateX(-2000px) translateY(-1500px) rotate(-60deg);} 
+        }
+
+        @keyframes cloud {
+            0% {transform: translateX(0px);}
+            50% {transform: translateX(70px);}
+            100% {transform: translateX(0px);}
+        }
