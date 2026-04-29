@@ -52,7 +52,7 @@
         }
 
         @keyframes cloud {
-            0% {transform: translateX(0px);}
-            50% {transform: translateX(70px);}
-            100% {transform: translateX(0px);}
+            0% {transform: translateY(0px);}
+            50% {transform: translateY(70px);}
+            100% {transform: translateY(0px);}
         }
