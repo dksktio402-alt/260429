@@ -2,13 +2,13 @@
 
          /* animation 속성들 한 줄로 나열 
          이름 / 지속시간 / 효과 / 반복 정도 / 진행방향 */
-        .chii {width: 300px; height: auto;
+        .chii {width: 280px; height: auto;
         animation: floatmove 7s ease-in-out infinite;
         position:absolute; right: 0; top: 50%;
         z-index: 9999;}
 
 
-        .hachi {width: 310px; height: auto;
+        .hachi {width: 290px; height: auto;
         animation: floatmove 7s ease-in-out infinite;
         position: absolute; right: 0; top: 60%;
         animation-delay: 0.7s;
@@ -18,21 +18,21 @@
         animation: fly 7s ease-in-out infinite;
         position: absolute; right: 40px; top: 100%}
 
-        .cloud {width: 200px; height: auto; 
+        .cloud {width: 250px; height: auto; 
         animation: cloud 5s linear infinite;
-        position: absolute; left: 90px; top: 40%;}
+        position: absolute; left: 90px; top: 40%; opacity: 0.5;}
 
-         .cloud2 {width: 300px; height: auto; 
+         .cloud2 {width: 330px; height: auto; 
         animation: cloud 5s linear infinite;
-        position: absolute; left: 480px; top: 50%;}
+        position: absolute; left: 480px; top: 50%; opacity: 0.6;}
 
-         .cloud3 {width: 200px; height: auto; 
+         .cloud3 {width: 230px; height: auto; 
         animation: cloud 5s linear infinite;
-        position: absolute; left: 760px; top: 20%;}
+        position: absolute; left: 760px; top: 20%; opacity: 0.6;}
 
-         .cloud4 {width: 250px; height: auto; 
+         .cloud4 {width: 300px; height: auto; 
         animation: cloud 5s linear infinite;
-        position: absolute; left: 1350px; top: 50%;}
+        position: absolute; left: 1350px; top: 50%; opacity: 0.5;}
 
 
         
